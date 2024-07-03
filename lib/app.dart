@@ -1,5 +1,6 @@
+import 'package:finacy_app/common/themes/default_theme.dart';
 import 'package:finacy_app/features/onboarding/onboarding_page.dart';
-import 'package:finacy_app/features/splash/splash_page.dart';
+import 'package:finacy_app/features/sign_up/sign_up_page.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -8,7 +9,8 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: OnboardingPage(),
+      // theme: defaultTheme,
+      home: SignUpPage(),
     );
   }
 }

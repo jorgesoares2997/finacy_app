@@ -1,14 +1,6 @@
-import 'dart:math';
-
 import 'package:finacy_app/common/constants/app_colors.dart';
 import 'package:finacy_app/common/constants/app_text_styles.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
-
 import '../../common/widgets/primary_button.dart';
 
 class OnboardingPage extends StatelessWidget {
